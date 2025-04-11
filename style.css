@@ -1,0 +1,114 @@
+body {
+    font-family: 'Times new roman', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .hero {
+    margin-top: 100px;
+  }
+  
+  #certificate {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid #000;
+    max-width: 600px;
+    margin: 20px auto;    
+
+
+    
+    text-align: center;
+  }
+  body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  /* Add background image with 50% opacity */
+  /* Add background image with 50% opacity */
+  body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                url('https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg') center/cover fixed;
+    min-height: 100vh;
+  }
+
+  /* Improve card hover effects */
+  .card {
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Style certificate text */
+  #certName {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;   
+  }
+/* End of additional styles */
+
+/* Admin Dashboard Styles */
+/* Admin Dashboard Styles */
+#admin-dashboard .card {
+  min-height: 400px;
+}
+
+#quiz-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.admin-login-item .nav-link {
+  color: #dc3545 !important;
+}
+
+@media (max-width: 768px) {
+  #admin-dashboard .card {
+    margin-bottom: 1.5rem;
+  }
+  
+  #quiz-list {
+    max-height: 200px;
+  }
+}
+#quizContainer, #resultContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.option-label {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.option-label:hover {
+  background-color: #f0f0f0;
+}
+
+.correct {
+  background-color: #d4edda !important;
+  border-color: #28a745;
+}
+
+.wrong {
+  background-color: #f8d7da !important;
+  border-color: #dc3545;
+}
+
+@media screen and (max-width: 600px) {
+  #quizContainer, #resultContainer {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+
+  
